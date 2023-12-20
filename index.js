@@ -28,7 +28,4 @@ async function invokeAction({ action, id, name, email, phone }) {
   }
 }
 
-invokeAction({
-  action: "remove",
-  id: "uSVb5ob9LstrFel0LP6YT",
-});
+invokeAction(argv);
